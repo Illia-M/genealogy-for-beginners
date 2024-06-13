@@ -1,0 +1,14 @@
+baseURL = "https://illia-m.github.io/"
+languageCode = "uk-UA"
+title = "Генеалогія для початківців"
+theme = "PaperMod"
+
+[params]
+  author = "Ілля Майер"
+  description = "Сайт про генеалогію"
+  showToc = true
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowWordCount = true
+  ShowRSSButtonInSectionTermList = true
