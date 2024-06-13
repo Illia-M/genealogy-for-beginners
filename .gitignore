@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 
 .hugo_build.lock
+public/*
