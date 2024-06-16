@@ -1,11 +1,11 @@
 baseURL = "https://genealogy.maier.page/"
 languageCode = "uk-UA"
-title = "Генеалогія для початківців"
+title = "Генеалогія для початківців - українською для українців"
 theme = "PaperMod"
 
 [params]
   author = "Ілля Майер"
-  description = "Сайт про генеалогію"
+  description = "Сайт про генеалогію для українців"
   showToc = true
   ShowReadingTime = true
   ShowBreadCrumbs = true
