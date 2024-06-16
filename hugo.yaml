@@ -1,0 +1,63 @@
+baseURL: https://genealogy.maier.page/
+languageCode: "uk-UA"
+defaultContentLanguage: uk
+title: "Генеалогія для початківців - українською для українців"
+theme: "PaperMod"
+cleanDestinationDir: true
+enableGitInfo: true
+enableRobotsTXT: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  ShowShareButtons: true
+  TocOpen: true
+  ShowBreadCrumbs: false
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+  defaultTheme: "auto"
+  disableThemeToggle: false
+  author: "Ілля Майер"
+  description: "Сайт про генеалогію для українців"
+  showToc: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
+  ShowRSSButtonInSectionTermList: true
+  editPost:
+    URL: "https://github.com/Illia-M/genealogy-for-beginners/tree/main/content"
+    Text: "Запропонувати зміни" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+menus:
+  main:
+    - name: "Головна"
+      pageRef: "/"
+      weight: 10
+    - name: "Архіви"
+      pageRef: "/archives/"
+      weight: 20
+    - name: "Програмні рішення"
+      pageRef: "/genealogy-software/"
+      weight: 30
+    - name: "Генеалоги"
+      pageRef: "/genealogists/"
+      weight: 70
+    - name: "Пошук"
+      pageRef: "/search/"
+      weight: 100
+      
+#    - name: "ДНК"
+#      pageRef: "/dna-tests/"
+#      weight: 40
