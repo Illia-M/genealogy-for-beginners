@@ -14,6 +14,7 @@ outputs:
     - JSON # necessary for search
 
 params:
+  sectionPagesMenu: main
   ShowShareButtons: true
   TocOpen: true
   ShowBreadCrumbs: false
@@ -40,24 +41,3 @@ params:
     Text: "Запропонувати зміни" # edit text
     appendFilePath: true # to append file path to Edit link
 
-menus:
-  main:
-    - name: "Головна"
-      pageRef: "/"
-      weight: 10
-    - name: "Архіви"
-      pageRef: "/archives/"
-      weight: 20
-    - name: "Програмні рішення"
-      pageRef: "/genealogy-software/"
-      weight: 30
-    - name: "Генеалоги"
-      pageRef: "/genealogists/"
-      weight: 70
-    - name: "Пошук"
-      pageRef: "/search/"
-      weight: 100
-      
-#    - name: "ДНК"
-#      pageRef: "/dna-tests/"
-#      weight: 40

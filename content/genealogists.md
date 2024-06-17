@@ -1,4 +1,11 @@
 ---
+menus:
+  main:
+    params:
+      class: center
+#    parent: Products
+    pre: <i class="fa-solid fa-code"></i>
+    weight: 80
 title: "Генеалоги"
 date: 2024-06-16T10:00:00+03:00
 draft: false
