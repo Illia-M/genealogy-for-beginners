@@ -3,6 +3,7 @@ menus:
   main:
     params:
       class: center
+    parent: "Корисна інформація"
     pre: <i class="fa-solid fa-code"></i>
     weight: 50
 title: "ДНК"

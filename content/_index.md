@@ -2,7 +2,7 @@
 menus:
   main:
     params:
-      class: center
+      class: left
 #    parent: Products
     pre: <i class="fa-solid fa-code"></i>
     weight: 1

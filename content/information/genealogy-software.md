@@ -3,7 +3,7 @@ menus:
   main:
     params:
       class: center
-#    parent: Products
+    parent: "Корисна інформація"
     pre: <i class="fa-solid fa-code"></i>
     weight: 40
 title: "Програмні рішення"
