@@ -5,7 +5,7 @@ menus:
       class: center
     parent: "Корисна інформація"
     pre: <i class="fa-solid fa-code"></i>
-    weight: 20
+    weight: 45
 title: "Архіви"
 date: 2024-06-16T12:00:00+03:00
 draft: false

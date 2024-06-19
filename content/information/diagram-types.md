@@ -5,7 +5,7 @@ menus:
       class: center
     parent: "Корисна інформація"
     pre: <i class="fa-solid fa-code"></i>
-    weight: 50
+    weight: 15
 title: "Діаграм"
 date: 2024-06-17:14:00+03:00
 draft: false

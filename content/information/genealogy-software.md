@@ -5,7 +5,7 @@ menus:
       class: center
     parent: "Корисна інформація"
     pre: <i class="fa-solid fa-code"></i>
-    weight: 40
+    weight: 10
 title: "Програмні рішення"
 date: 2024-06-16T10:00:00+03:00
 draft: false
