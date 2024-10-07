@@ -5,7 +5,7 @@ menus:
       class: center
 #    parent: Products
     pre: <i class="fa-solid fa-code"></i>
-    weight: 60
+    weight: 6
 title: "Корисні посилання"
 date: 2024-06-17T20:00:00+03:00
 draft: false
